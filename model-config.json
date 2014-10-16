@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "sources": [
+      "../modules/image/models"
+    ]
+  },
+  "container": {
+    "dataSource": "filesystem",
+    "public": true
+  },
+  "file": {
+    "dataSource": "db",
+    "public": false
+  }
+}
