@@ -1,13 +1,10 @@
-var fs = require('fs');
+'use strict';
 
-
-module.exports = function(app, storagePath) {
+module.exports = function() {
   var moduleClass = {
-    rename: function (fileId, name) {
-
+    rename: function () {
     },
-    move: function (fileId, path, name) {
-
+    move: function () {
     },
   };
 
