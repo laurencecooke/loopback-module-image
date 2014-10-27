@@ -1,6 +1,7 @@
-module.exports = function(app) {
-  var moduleClass = {
-  };
+'use strict';
+
+module.exports = function() {
+  var moduleClass = {};
 
   return moduleClass;
 };
