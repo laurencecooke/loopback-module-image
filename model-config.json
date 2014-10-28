@@ -1,9 +1,4 @@
 {
-  "_meta": {
-    "sources": [
-      "../modules/image/models"
-    ]
-  },
   "container": {
     "dataSource": "filesystem",
     "public": true

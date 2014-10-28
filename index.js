@@ -5,6 +5,9 @@ module.exports = function(app) {
     storagePath: __dirname + '../../storage/',
     getManager: function () {
       return require('./service/manager.js')(app);
+    },
+    getPath: function () {
+      return __dirname;
     }
   };
 
