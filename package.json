@@ -1,0 +1,38 @@
+{
+  "name": "loopback-module-image",
+  "version": "0.0.1",
+  "description": "Image manipulation module",
+  "keywords": [
+    "image",
+    "modules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cajoy/loopback-module-image"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/cajoy/loopback-module-image/issues"
+  },
+  "homepage": "https://github.com/cajoy/loopback-module-image",
+  "_npmUser": {
+    "name": "cajoy",
+    "email": "cajoy.dev@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "cajoy",
+      "email": "cajoy.dev@gmail.com"
+    }
+  ],
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Alex Struc",
+    "email": "cajoy.dev@gmail.com"
+  },
+  "license": "ISC"
+}
