@@ -2,12 +2,12 @@
 
 module.exports = function(app) {
   var moduleClass = {
-    storagePath: __dirname + '../../storage/',
-    getManager: function () {
-      return require('./service/manager.js')(app);
-    },
+    storagePath: null,
     getPath: function () {
       return __dirname;
+    },
+    afterBoot: function (appDir) {
+      this.storagePath = appDir + '../' + app.dataSources.filesystem.settings.root;
     }
   };
 
