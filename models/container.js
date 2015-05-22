@@ -4,6 +4,19 @@ var fs      = require('fs');
 var shortId = require('shortid');
 
 module.exports = function(Container) {
+
+  /*
+  * links a container to user(userId) by an incoming accessToken
+  */
+  Container.beforeRemote('create', function (ctx, instance, next) {
+    var accessToken = ctx.req.accessToken;
+    if (! accessToken) {
+      next('Not Authorized');
+    }
+    ctx.args.options.userId = accessToken.userId;
+    next();
+  });
+
   Container.beforeRemote('upload', function(ctx, inst, next) {
     var app         = Container.app;
     var containerId = ctx.args.req.params.container;
