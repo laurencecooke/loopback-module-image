@@ -4,6 +4,12 @@ var fs      = require('fs');
 var shortId = require('shortid');
 
 module.exports = function(Container) {
+
+  Container.beforeRemote('create', function(ctx, inst, next) {
+    inst.userId = ctx.req.accessToken.userId;
+    next();
+  });
+
   Container.beforeRemote('upload', function(ctx, inst, next) {
     var app         = Container.app;
     var containerId = ctx.args.req.params.container;
