@@ -7,7 +7,7 @@ module.exports = function(app) {
       return __dirname;
     },
     afterBoot: function (appDir) {
-      this.storagePath = appDir + '../' + app.dataSources.filesystem.settings.root;
+      this.storagePath = app.dataSources.filesystem.settings.root.charAt(0) === "/" ? app.dataSources.filesystem.settings.root : appDir + '../' + app.dataSources.filesystem.settings.root;
     }
   };
 
