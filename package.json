@@ -1,6 +1,6 @@
 {
   "name": "loopback-module-image",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Image manipulation module",
   "keywords": [
     "image",
@@ -12,7 +12,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "shortid": "^2.1.3"
+    "shortid": "^2.2.2"
   },
   "bugs": {
     "url": "https://github.com/cajoy/loopback-module-image/issues"
@@ -37,17 +37,16 @@
     "email": "cajoy.dev@gmail.com"
   },
   "license": "ISC",
-  "_id": "loopback-module-image@0.0.3",
-  "_shasum": "07d4b28689b428a96f97f0aaee8fb85c82107732",
-  "_from": "loopback-module-image@0.0.3",
+  "_id": "loopback-module-image@0.0.4",
+  "_shasum": "e583a22ea024c73936f3b26329cb32b4f74424c6",
+  "_from": "loopback-module-image@0.0.4",
   "_npmVersion": "2.1.2",
   "_nodeVersion": "0.10.31",
   "dist": {
-    "shasum": "07d4b28689b428a96f97f0aaee8fb85c82107732",
-    "tarball": "http://registry.npmjs.org/loopback-module-image/-/loopback-module-image-0.0.3.tgz"
+    "shasum": "e583a22ea024c73936f3b26329cb32b4f74424c6",
+    "tarball": "http://registry.npmjs.org/loopback-module-image/-/loopback-module-image-0.0.4.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/loopback-module-image/-/loopback-module-image-0.0.3.tgz",
-  "gitHead": "88589a7e0d11d513a4ed2c50a16bf1a70cba2092",
-  "readme": "Image module"
+  "_resolved": "https://registry.npmjs.org/loopback-module-image/-/loopback-module-image-0.0.4.tgz",
+  "gitHead": "88589a7e0d11d513a4ed2c50a16bf1a70cba2092"
 }
